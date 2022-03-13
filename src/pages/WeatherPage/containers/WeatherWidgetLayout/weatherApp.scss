@@ -1,0 +1,39 @@
+.weather-app {
+	max-width: 590px;
+	width: 100%;
+	margin: 50px auto;
+}
+.weather-widget__container {
+	width: 100%;
+	min-height: 300px;
+	margin-top: 11px;
+	background: #ffffff;
+	border: 1px solid rgba(150, 150, 150, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+	border-radius: 4px;
+}
+
+.weather-error {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+	margin-top: 30px;
+	&__pic {
+		width: 158px;
+		height: 158px;
+	}
+}
+
+.weather-loading {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	margin-top: 100px;
+	font-weight: 500;
+	font-size: 18px;
+	color: #333333;
+}

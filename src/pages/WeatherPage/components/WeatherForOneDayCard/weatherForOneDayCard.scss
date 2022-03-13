@@ -1,0 +1,36 @@
+.weather-card {
+	max-height: 143px;
+	height: 100%;
+	padding: 20px 0 15px;
+	text-align: center;
+	flex-grow: 1;
+	border: 1px solid #969696;
+	&__day {
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 16px;
+		color: #000000;
+		margin-bottom: 2px;
+	}
+	&__highest-temp {
+		font-weight: bold;
+		display: block;
+		font-size: 18px;
+		line-height: 21px;
+		color: #000000;
+		margin-bottom: 2px;
+	}
+	&__lowest-temp {
+		display: block;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: #000000;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+	&--active {
+		background: #f7f7f7;
+	}
+}
