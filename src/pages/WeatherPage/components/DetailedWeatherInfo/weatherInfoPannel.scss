@@ -1,0 +1,56 @@
+.weather-pannel {
+	margin: 20px 20px 14px;
+	&__place {
+		margin-bottom: 35px;
+	}
+	&__loc {
+		font-weight: bold;
+		font-size: 20px;
+		line-height: 23px;
+		color: #333333;
+	}
+	&__time {
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		margin-top: 5px;
+		color: #666666;
+	}
+	&__deg {
+		display: flex;
+		flex-basis: 50%;
+		img {
+			min-width: 64px;
+			min-height: 64px;
+		}
+	}
+	&__info {
+		flex-basis: 50%;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 16px;
+		color: #222222;
+	}
+	&__temp {
+		font-weight: bold;
+		font-size: 44px;
+		line-height: 52px;
+		margin-left: 6px;
+		color: #000000;
+	}
+	&__val {
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 30px;
+		margin-left: 6px;
+		color: #888888;
+		cursor: pointer;
+	}
+	&__main {
+		display: flex;
+	}
+	&__val--active {
+		text-decoration-line: underline;
+		color: #222222;
+	}
+}
